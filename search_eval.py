@@ -3,6 +3,8 @@ import sys
 import time
 import metapy
 import pytoml
+import numpy
+
 
 class mptf2lnRanker(metapy.index.RankingFunction):
     """
